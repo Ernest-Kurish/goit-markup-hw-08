@@ -118,7 +118,7 @@ body {
 
 .button.button__primary {
   padding: 10px 32px;
-  min-width: 216px;
+  min-width: 200px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -676,8 +676,8 @@ body {
   margin-bottom: 30px;
   color: #ffffff;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
