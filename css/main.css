@@ -205,7 +205,6 @@ body {
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
-    overflow: hidden;
   }
 }
 @media screen and (min-width: 768px) {
@@ -766,7 +765,7 @@ body {
 
 .section-advantage {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .section-advantage__list {
@@ -779,8 +778,8 @@ body {
 }
 
 .section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #f5f4fa;
 }
 
@@ -891,7 +890,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -919,12 +918,12 @@ body {
 }
 
 .footer-address__street {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
 }
 
 .footer__email {
   display: block;
-  margin-bottom: 9px;
+  margin-bottom: 12px;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 2;
@@ -933,6 +932,7 @@ body {
 
 .footer__phone {
   display: block;
+  margin-bottom: 40px;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 2;
@@ -1033,6 +1033,7 @@ body {
 /*    FOOTER FORM */
 .footer-form {
   width: 100%;
+  margin-top: 40px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }

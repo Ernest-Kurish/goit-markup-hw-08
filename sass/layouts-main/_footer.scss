@@ -1,7 +1,7 @@
 .logo__footer {
   width: 100%;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
   justify-content: center;
 }
 
@@ -23,13 +23,13 @@
 }
 
 .footer-address__street {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
 }
 
 .footer__email {
   display: block;
 
-  margin-bottom: 9px;
+  margin-bottom: 12px;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 2;
@@ -38,6 +38,8 @@
 
 .footer__phone {
   display: block;
+  margin-bottom: 40px;
+
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 2;
@@ -119,6 +121,7 @@
 /*    FOOTER FORM */
 .footer-form {
   width: 100%;
+  margin-top: 40px;
   flex-wrap: wrap;
   
 }
@@ -145,7 +148,7 @@
   width: 100%;
   flex-wrap: wrap;
   margin-bottom: 20px;
-  
+
   padding-left: 16px;
   height: 50px;
 
