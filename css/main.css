@@ -734,11 +734,9 @@ body {
 }
 
 .section-advantage__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 100%;
 }
 .section-advantage__list .item:last-child {
   margin-right: 0;
@@ -853,8 +851,14 @@ body {
 }
 
 .logo__footer {
-  display: block;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer {
@@ -864,7 +868,14 @@ body {
 }
 
 .footer-address {
-  display: block;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
   color: #ffffff;
   font-style: normal;
   line-height: 2;
@@ -898,16 +909,23 @@ body {
 
 /* -------------------FOOTER ICONS ------------------*/
 .footer__content {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
 }
 
 .footer__contacts {
-  margin-right: 70px;
+  width: 100%;
 }
 
 .footer-icon {
@@ -924,7 +942,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
@@ -976,10 +996,18 @@ body {
 
 /*    FOOTER FORM */
 .footer-form {
-  margin-left: 93px;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .footer-form__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -989,16 +1017,19 @@ body {
 }
 
 .footer-form__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 20px;
   gap: 12px;
 }
 
 .footer-form__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 20px;
   padding-left: 16px;
-  width: 358px;
   height: 50px;
   font-weight: 400;
   font-size: 16px;

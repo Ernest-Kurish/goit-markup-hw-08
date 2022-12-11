@@ -4,8 +4,9 @@
 }
 
 .section-advantage__list {
-  display: flex;
+  // display: flex;
   flex-wrap: wrap;
+  width: 100%;
 
   & .item:last-child {
     margin-right: 0;
