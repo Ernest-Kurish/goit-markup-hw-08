@@ -4,13 +4,12 @@
   margin-bottom: 28px;
   justify-content: center;
 
-@media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     max-width: 1200px;
 
     display: block;
     margin-bottom: 20px;
   }
-
 }
 
 .footer {
@@ -26,36 +25,36 @@
   line-height: 2;
   text-decoration: none;
 
-@media screen and (min-width: 480px) {
+  @media screen and (min-width: 480px) {
     max-width: 480px;
 
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 
   @media screen and (min-width: 768px) {
-      max-width: 768px;
+    max-width: 768px;
 
-        display: block;
-    }
+    display: block;
+  }
 
-        @media screen and (min-width: 1200px) {
-          max-width: 1200px;
-    
-                text-align:left;
-        }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+
+    text-align: left;
+  }
 }
 
 .footer-address__street {
   margin-bottom: 12px;
 
   @media screen and (min-width: 1200px) {
-      max-width: 1200px;
-    
-      margin-bottom: 9px;
-    }
+    max-width: 1200px;
+
+    margin-bottom: 9px;
+  }
 }
 
 .footer__email {
@@ -68,9 +67,9 @@
   text-decoration: none;
 
   @media screen and (min-width: 1200px) {
-      max-width: 1200px;
-      margin-bottom: 9px;
-    }
+    max-width: 1200px;
+    margin-bottom: 9px;
+  }
 }
 
 .footer__phone {
@@ -83,10 +82,10 @@
   text-decoration: none;
 
   @media screen and (min-width: 1200px) {
-      max-width: 1200px;
-  
-      margin-bottom: 0;
-    }
+    max-width: 1200px;
+
+    margin-bottom: 0;
+  }
 }
 
 .logo__accent--footer {
@@ -102,9 +101,9 @@
   // gap: 30px;
   align-items: baseline;
 
-@media screen and (min-width: 1200px) {
-  max-width: 1200px;
-    
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+
     display: flex;
     flex-wrap: nowrap;
     align-items: baseline;
@@ -112,23 +111,27 @@
 }
 
 .footer__contacts {
-    margin-right: 70px;
 
-    @media screen and (min-width: 480px) {
+  @media screen and (min-width: 480px) {
     max-width: 480px;
-    
+
     width: 100%;
     margin: 0;
   }
 
-    @media screen and (min-width: 768px) {
-      max-width: 768px;
-      width: auto;  
-      margin: 0;
-      gap: 0px;
-      margin-right: 155px;      
-    }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    width: auto;
+    margin: 0;
+    gap: 0px;
+    margin-right: 155px;
+  }
 
+    @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+      width: 100%;
+      margin-right: 70px;
+    }
 }
 
 .footer-icon {
@@ -136,14 +139,14 @@
   justify-content: center;
 
   @media screen and (min-width: 480px) {
-      max-width: 480px;
-      margin-bottom: 60px;
-    }
+    max-width: 480px;
+    margin-bottom: 60px;
+  }
 }
 
 .footer-icon__header {
   margin-bottom: 20px;
-  
+
   display: flex;
   justify-content: center;
 
@@ -154,14 +157,12 @@
   text-transform: uppercase;
   color: #ffffff;
 
-@media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     max-width: 1200px;
 
     display: flex;
     display: inline-block;
   }
-
-
 }
 
 .footer-icon__list {
@@ -203,28 +204,27 @@
   margin-left: 93px;
 
   @media screen and (min-width: 480px) {
-      max-width: 480px;
-    
-      width: 100%;
+    max-width: 480px;
+
+    width: 100%;
     margin-top: 0px;
     flex-wrap: wrap;
     margin-left: 0px;
-    }
+  }
 
-    @media screen and (min-width: 768px) {
-      max-width: 768px;
-      margin-top: 0;
-      margin-left: 159px;
-      margin-right: 159px;
-    }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    margin-top: 0;
+    margin-left: 159px;
+    margin-right: 159px;
+  }
 
-    @media screen and (min-width: 1200px) {
-      max-width: 1200px;
-  
-        margin-left: 93px;
-        margin-right: 0px;
-    }
-  
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+
+    margin-left: 93px;
+    margin-right: 0px;
+  }
 }
 
 .footer-form__header {
@@ -239,23 +239,22 @@
   color: #ffffff;
 
   @media screen and (min-width: 1200px) {
-      max-width: 1200px;
-  
-      display: block;
-    }
+    max-width: 1200px;
+
+    display: block;
+  }
 }
 
 .footer-form__items {
   margin-top: 20px;
   gap: 12px;
-@media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     max-width: 1200px;
 
     display: flex;
-      margin-top: 20px;
-      gap: 12px;
+    margin-top: 20px;
+    gap: 12px;
   }
-
 }
 
 .footer-form__email {
@@ -268,16 +267,16 @@
   height: 50px;
 
   @media screen and (min-width: 1200px) {
-      max-width: 1200px;
+    max-width: 1200px;
 
-      display: block;
-      flex-wrap: nowrap;
-        width: 358px;
-        padding-left: 16px;
-        height: 50px;
+    display: block;
+    flex-wrap: nowrap;
+    width: 358px;
+    padding-left: 16px;
+    height: 50px;
 
-        margin-bottom: 0;
-    }
+    margin-bottom: 0;
+  }
 
   font-weight: 400;
   font-size: 16px;
