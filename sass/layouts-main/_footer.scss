@@ -3,6 +3,13 @@
   display: flex;
   margin-bottom: 28px;
   justify-content: center;
+
+@media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    display: block;
+    margin-bottom: 20px;
+  }
+
 }
 
 .footer {
@@ -12,14 +19,30 @@
 }
 
 .footer-address {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+display: block;
   color: #ffffff;
   font-style: normal;
   line-height: 2;
   text-decoration: none;
+
+@media screen and (min-width: 480px) {
+    max-width: 480px;
+
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+      max-width: 768px;
+
+        display: block;
+        color: #ffffff;
+        font-style: normal;
+        line-height: 2;
+        text-decoration: none;
+    }
 }
 
 .footer-address__street {
@@ -61,8 +84,21 @@
 }
 
 .footer__contacts {
-  width: 100%;
-  // margin-right: 70px;
+    margin-right: 70px;
+
+    @media screen and (min-width: 480px) {
+    max-width: 480px;
+    
+    width: 100%;
+    margin: 0;
+  }
+
+    @media screen and (min-width: 768px) {
+      max-width: 768px;
+      width: auto;  
+      margin: 0;
+    }
+
 }
 
 .footer-icon {
@@ -120,9 +156,21 @@
 
 /*    FOOTER FORM */
 .footer-form {
-  width: 100%;
-  margin-top: 40px;
-  flex-wrap: wrap;
+  margin-left: 93px;
+
+  @media screen and (min-width: 480px) {
+      max-width: 480px;
+    
+      width: 100%;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    }
+
+    @media screen and (min-width: 768px) {
+      max-width: 768px;
+      margin-top: 0;
+    }
   
 }
 
