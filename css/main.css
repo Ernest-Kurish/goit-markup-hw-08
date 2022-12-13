@@ -1071,6 +1071,12 @@ body {
     display: block;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-address {
+    max-width: 1200px;
+    text-align: left;
+  }
+}
 
 .footer-address__street {
   margin-bottom: 12px;
@@ -1266,6 +1272,13 @@ body {
     margin-top: 0;
     margin-left: 159px;
     margin-right: 159px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-form {
+    max-width: 1200px;
+    margin-left: 93px;
+    margin-right: 0px;
   }
 }
 

@@ -20,7 +20,7 @@
 }
 
 .footer-address {
-display: block;
+  display: block;
   color: #ffffff;
   font-style: normal;
   line-height: 2;
@@ -40,6 +40,12 @@ display: block;
 
         display: block;
     }
+
+        @media screen and (min-width: 1200px) {
+          max-width: 1200px;
+    
+                text-align:left;
+        }
 }
 
 .footer-address__street {
@@ -210,6 +216,13 @@ display: block;
       margin-top: 0;
       margin-left: 159px;
       margin-right: 159px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+  
+        margin-left: 93px;
+        margin-right: 0px;
     }
   
 }
