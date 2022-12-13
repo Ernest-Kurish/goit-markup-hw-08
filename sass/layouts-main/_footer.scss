@@ -6,6 +6,7 @@
 
 @media screen and (min-width: 1200px) {
     max-width: 1200px;
+
     display: block;
     margin-bottom: 20px;
   }
@@ -38,15 +39,17 @@ display: block;
       max-width: 768px;
 
         display: block;
-        color: #ffffff;
-        font-style: normal;
-        line-height: 2;
-        text-decoration: none;
     }
 }
 
 .footer-address__street {
   margin-bottom: 12px;
+
+  @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+    
+      margin-bottom: 9px;
+    }
 }
 
 .footer__email {
@@ -57,6 +60,11 @@ display: block;
   font-style: normal;
   line-height: 2;
   text-decoration: none;
+
+  @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+      margin-bottom: 9px;
+    }
 }
 
 .footer__phone {
@@ -67,6 +75,12 @@ display: block;
   font-style: normal;
   line-height: 2;
   text-decoration: none;
+
+  @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+  
+      margin-bottom: 0;
+    }
 }
 
 .logo__accent--footer {
@@ -79,18 +93,16 @@ display: block;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  // gap: 30px;
   align-items: baseline;
 
 @media screen and (min-width: 1200px) {
   max-width: 1200px;
-  
+    
     display: flex;
+    flex-wrap: nowrap;
     align-items: baseline;
   }
-
-
-
 }
 
 .footer__contacts {
@@ -107,6 +119,7 @@ display: block;
       max-width: 768px;
       width: auto;  
       margin: 0;
+      gap: 0px;
       margin-right: 155px;      
     }
 
@@ -134,6 +147,15 @@ display: block;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+
+@media screen and (min-width: 1200px) {
+    max-width: 1200px;
+
+    display: flex;
+    display: inline-block;
+  }
+
+
 }
 
 .footer-icon__list {
@@ -202,11 +224,25 @@ display: block;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+
+  @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+  
+      display: block;
+    }
 }
 
 .footer-form__items {
   margin-top: 20px;
   gap: 12px;
+@media screen and (min-width: 1200px) {
+    max-width: 1200px;
+
+    display: flex;
+      margin-top: 20px;
+      gap: 12px;
+  }
+
 }
 
 .footer-form__email {
@@ -217,6 +253,18 @@ display: block;
 
   padding-left: 16px;
   height: 50px;
+
+  @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+
+      display: block;
+      flex-wrap: nowrap;
+        width: 358px;
+        padding-left: 16px;
+        height: 50px;
+
+        margin-bottom: 0;
+    }
 
   font-weight: 400;
   font-size: 16px;

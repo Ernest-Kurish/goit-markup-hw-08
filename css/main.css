@@ -316,6 +316,11 @@ body {
 .section-about {
   padding-bottom: 94px;
 }
+@media screen and (max-width: 1199px) {
+  .section-about {
+    display: none;
+  }
+}
 
 .section-about__list {
   display: -webkit-box;
@@ -1064,15 +1069,17 @@ body {
   .footer-address {
     max-width: 768px;
     display: block;
-    color: #ffffff;
-    font-style: normal;
-    line-height: 2;
-    text-decoration: none;
   }
 }
 
 .footer-address__street {
   margin-bottom: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-address__street {
+    max-width: 1200px;
+    margin-bottom: 9px;
+  }
 }
 
 .footer__email {
@@ -1083,6 +1090,12 @@ body {
   line-height: 2;
   text-decoration: none;
 }
+@media screen and (min-width: 1200px) {
+  .footer__email {
+    max-width: 1200px;
+    margin-bottom: 9px;
+  }
+}
 
 .footer__phone {
   display: block;
@@ -1091,6 +1104,12 @@ body {
   font-style: normal;
   line-height: 2;
   text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+  .footer__phone {
+    max-width: 1200px;
+    margin-bottom: 0;
+  }
 }
 
 .logo__accent--footer {
@@ -1108,7 +1127,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 30px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
@@ -1119,6 +1137,8 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
@@ -1140,6 +1160,7 @@ body {
     max-width: 768px;
     width: auto;
     margin: 0;
+    gap: 0px;
     margin-right: 155px;
   }
 }
@@ -1173,6 +1194,15 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+@media screen and (min-width: 1200px) {
+  .footer-icon__header {
+    max-width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: inline-block;
+  }
 }
 
 .footer-icon__list {
@@ -1253,10 +1283,26 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+@media screen and (min-width: 1200px) {
+  .footer-form__header {
+    max-width: 1200px;
+    display: block;
+  }
+}
 
 .footer-form__items {
   margin-top: 20px;
   gap: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-form__items {
+    max-width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    gap: 12px;
+  }
 }
 
 .footer-form__email {
@@ -1278,6 +1324,18 @@ body {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-form__email {
+    max-width: 1200px;
+    display: block;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 358px;
+    padding-left: 16px;
+    height: 50px;
+    margin-bottom: 0;
+  }
 }
 .footer-form__email::-webkit-input-placeholder {
   font-size: 16px;
