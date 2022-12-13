@@ -81,6 +81,16 @@ display: block;
   justify-content: center;
   gap: 30px;
   align-items: baseline;
+
+@media screen and (min-width: 1200px) {
+  max-width: 1200px;
+  
+    display: flex;
+    align-items: baseline;
+  }
+
+
+
 }
 
 .footer__contacts {
@@ -97,6 +107,7 @@ display: block;
       max-width: 768px;
       width: auto;  
       margin: 0;
+      margin-right: 155px;      
     }
 
 }
@@ -104,6 +115,11 @@ display: block;
 .footer-icon {
   align-items: center;
   justify-content: center;
+
+  @media screen and (min-width: 480px) {
+      max-width: 480px;
+      margin-bottom: 60px;
+    }
 }
 
 .footer-icon__header {
@@ -162,7 +178,7 @@ display: block;
       max-width: 480px;
     
       width: 100%;
-    margin-top: 40px;
+    margin-top: 0px;
     flex-wrap: wrap;
     margin-left: 0px;
     }
@@ -170,6 +186,8 @@ display: block;
     @media screen and (min-width: 768px) {
       max-width: 768px;
       margin-top: 0;
+      margin-left: 159px;
+      margin-right: 159px;
     }
   
 }
