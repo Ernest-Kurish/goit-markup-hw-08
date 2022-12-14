@@ -382,6 +382,32 @@ body {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+@media screen and (min-width: 480px) {
+  .modal {
+    max-width: 480px;
+    width: 450px;
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 768px;
+    width: 450px;
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 528px;
+    padding: 40px;
+  }
+}
 
 .button__close--modal {
   position: absolute;
@@ -515,6 +541,29 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+@media screen and (min-width: 480px) {
+  .modal__check--text {
+    max-width: 480px;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal__check--text {
+    max-width: 768px;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal__check--text {
+    max-width: 1200px;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
 .modal__check:checked + .modal__check--text .modal__icon--check {
   background-color: #2196f3;
   border: none;
@@ -553,6 +602,27 @@ body {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2196f3;
+}
+@media screen and (min-width: 480px) {
+  .modal__link--policy {
+    max-width: 480px;
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal__link--policy {
+    max-width: 768px;
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal__link--policy {
+    max-width: 1200px;
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .logo {
