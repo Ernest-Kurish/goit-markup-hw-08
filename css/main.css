@@ -794,6 +794,16 @@ body {
   fill: #2196f3;
 }
 
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vw;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+}
+
 .hero {
   margin-top: 0;
   margin-bottom: 0;
