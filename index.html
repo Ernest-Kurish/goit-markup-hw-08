@@ -352,13 +352,26 @@
             </li>
 
             <li class="item">
-              <img
-                srcset="./images/img_olga.jpg 1x, ./images/img_olga-desk-2x.jpg 2x"
-                src="./images/img_olga.jpg"
-                alt="Фото_Ольга_Рєпіна"
-                width="270"
-                height="260"
-              />
+
+              <picture>
+                <source 
+                srcset="./images/img_olga.jpg 1x, ./images/img_olga-desk-2x.jpg 2x" 
+                media="(min-width: 1200px" />
+              
+                <source 
+                srcset="./img_olga-tab-1x 1x, ./images/img_olga-tab-2x.jpg 2x" 
+                media="(min-width: 768px" />
+              
+                <source 
+                srcset="./img_olga-mob-1x 1x, ./images/img_olga-mob-2x.jpg 2x" 
+                media="(min-width: 767px" />
+              
+                <img 
+                src="./images/img_olga-mob-1x.jpg" 
+                alt="Фото_Ольга_Рєпіна" 
+                width="450" 
+                height="460" />
+              </picture>
 
               <div class="team-picture">
                 <h3 class="team-picture__leader">Ольга Рєпіна</h3>
@@ -400,13 +413,27 @@
             </li>
 
             <li class="item">
-              <img
-                srcset="./images/img_mykola.jpg 1x, ./images/img_mykola-desk-2x.jpg 2x"
-                src="./images/img_mykola.jpg"
-                alt="Фото_Микола_Тарасов"
-                width="270"
-                height="260"
-              />
+
+              <picture>
+                <source 
+                srcset="./images/img_mykola.jpg 1x, ./images/img_mykola-desk-2x.jpg 2x" 
+                media="(min-width: 1200px" />
+              
+                <source 
+                srcset="./img_mykola-tab-1x 1x, ./images/img_mykola-tab-2x.jpg 2x" 
+                media="(min-width: 768px" />
+              
+                <source 
+                srcset="./img_mykola-mob-1x 1x, ./images/img_mykola-mob-2x.jpg 2x" 
+                media="(min-width: 767px" />
+              
+                <img 
+                src="./images/img_mykola-mob-1x.jpg" 
+                alt="Фото_Микола_Тарасов" 
+                width="450" 
+                height="460" />
+              </picture>
+
               <div class="team-picture">
                 <h3 class="team-picture__leader">Микола Тарасов</h3>
                 <p class="team-picture__title">Marketing</p>
@@ -447,13 +474,26 @@
             </li>
 
             <li class="item">
-              <img
-                srcset="./images/img_michael.jpg 1x, ./images/img_michael-desk-2x.jpg 2x"
-                src="./images/img_michael.jpg"
-                alt="Фото_Михайло_Єрмаков"
-                width="270"
-                height="260"
-              />
+
+              <picture>
+              <source 
+              srcset="./images/img_michael.jpg 1x, ./images/img_michael-desk-2x.jpg 2x" 
+              media="(min-width: 1200px" />
+              
+              <source 
+              srcset="./img_michael-tab-1x 1x, ./images/img_michael-tab-2x.jpg 2x" 
+              media="(min-width: 768px" />
+              
+              <source 
+              srcset="./img_michael-mob-1x 1x, ./images/img_michael-mob-2x.jpg 2x" 
+              media="(min-width: 767px" />
+              
+              <img 
+              src="./images/img_michael-mob-1x.jpg" 
+              alt="Фото_Михайло_Єрмаков" 
+              width="450" 
+              height="460" />
+              </picture>
 
               <div class="team-picture">
                 <h3 class="team-picture__leader">Михайло Єрмаков</h3>
