@@ -62,6 +62,19 @@
 .header-link__contacts {
   display: none;
   margin-left: auto;
+
+  @media screen and (min-width: 768px) {
+      max-width: 768px;
+      display: flex;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+  
+      display: flex;
+    }
+
+
 }
 
 .header-link__contacts .item {
@@ -96,6 +109,18 @@
     height: 4px;
     background-color: var(--accent-color);
   }
+
+    @media screen and (min-width: 768px) {
+      max-width: 768px;
+      display: flex;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+  
+      display: flex;
+    }
+
 }
 
 .header__link--main .item + .item {
@@ -142,6 +167,10 @@
 
 
 .menu-open {
+  display: none;
+
+    @media screen and (min-width: 480px) {
+        max-width: 480px;
 
       display: flex;
       margin-left: auto;
@@ -163,37 +192,67 @@
       }
     }
 
+         @media screen and (min-width: 768px) {
+           max-width: 768px;
+
+          display: none;
+
+            @media screen and (min-width: 1200px) {
+                max-width: 1200px;
+
+                display: none;
+            }}}
+
+
 
 
     // MOBILE WINDOW
     
     .mobile-menu {
-      position: fixed;
-      top: 0;
-      z-index: 1;
-      width: 100vw;
-      height: 100vh;
 
-      background-color: #ffffff;
-        left: 0;
+      @media screen and (min-width: 480px) {
+          max-width: 480px;
+
+          position: fixed;
+            top: 0;
+            z-index: 1;
+            width: 100vw;
+            height: 100vh;
+          
+            background-color: #ffffff;
+            left: 0;
+          
+            display: flex;
+            flex-direction: column;
+          
+            width: 100%;
+            height: 100%;
+          
+            padding: 48px 40px;
+            overflow: auto;
+
+            // transform: translateX(100%);
+              // transition: transform var(--animation);
+            
+            
+            
+              // &.is-open {
+              //   transform: translateX(0);
+              // }
+        }
       
-        display: flex;
-        flex-direction: column;
+
+        @media screen and (min-width: 768px) {
+            max-width: 768px;
+            display: none;
+          }
+        
+          @media screen and (min-width: 1200px) {
+            max-width: 1200px;
+        
+            display: none;
+          }
       
-        width: 100%;
-        height: 100%;
-      
-        padding: 48px 40px;
-      
-      
-        // transform: translateX(100%);
-        // transition: transform var(--animation);
-      
-        // overflow: auto;
-      
-        // &.is-open {
-        //   transform: translateX(0);
-        // }
       }
 
             .mobile-contacts__current {
