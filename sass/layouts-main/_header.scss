@@ -254,6 +254,7 @@
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
+        text-decoration: none;
   
     color: #757575;
 }
@@ -264,70 +265,62 @@
     line-height: 1.18;
   
     letter-spacing: 0.02em;
+        text-decoration: none;
   
     color: #2196F3;
 }
 
 .mobile-social {
+list-style: none;
 
-  font-weight: 500;
-    font-size: 18px;
-    line-height: 1.22;  
+  @media screen and (max-width: 436px) {
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+
+
+  }
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  &__link {
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(22 / 18);
     letter-spacing: 0.02em;
-  
-    color: #2196F3;
+    color: var(--accent-color);
+  }
 
-    @media screen and (max-width: 436px) {
-        display: flex;
-        // flex-direction: column;
-        justify-content: center;
-    
-    
+  &__link {
+    &::after {
+      @media screen and (max-width: 436px) {
+        display: none;
       }
-    
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    
-    
-    
-    
-      &__link {
-        position: relative;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: calc(22 / 18);
-        letter-spacing: 0.02em;
-        color: var(--accent-bgr-cl);
+
+      position: absolute;
+
+      content: '';
+      top: 0;
+      right: -10px;
+      display: block;
+      width: 1px;
+      height: 22px;
+      background-color: rgba(33, 33, 33, 0.2);
+    }
+
+    &--not_after {
+      &::after {
+        display: none;
       }
-    
-      &__link {
-        &::after {
-          @media screen and (max-width: 436px) {
-            display: none;
-          }
-    
-          position: absolute;
-    
-          content: '';
-          top: 0;
-          right: -10px;
-          display: block;
-          width: 1px;
-          height: 22px;
-          background-color: rgba(33, 33, 33, 0.2);
-        }
-    
-        &--not_after {
-          &::after {
-            display: none;
-          }
-        }}}
+    }
+  }}
 
 
 
 
 .mobile-social__item {}
 
-.mobile-social__link {}
