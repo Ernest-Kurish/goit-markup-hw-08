@@ -10,28 +10,26 @@
   text-decoration: none;
 
   @media screen and (min-width: 480px) {
-      max-width: 480px;
-  
-      font-size: 24px;
-      line-height: 1.17;
-    }
+    max-width: 480px;
+
+    font-size: 24px;
+    line-height: 1.17;
+  }
 
   @media screen and (min-width: 768px) {
-      max-width: 768px;
+    max-width: 768px;
 
-      font-size: 24px;
-        line-height: 1.17;
-    }
-  
-    @media screen and (min-width: 1200px) {
-      max-width: 1200px;
-  
-      font-size: 26px;
-      line-height: 1.19;
-    }
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
-
-
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -82,9 +80,9 @@
   align-items: center;
 
   @media screen and (min-width: 768px) {
-      max-width: 768px;
+    max-width: 768px;
 
-      align-items:flex-start;
+    align-items: flex-start;
   }
 }
 
@@ -123,12 +121,12 @@
     padding-bottom: 0;
   }
 
-    @media screen and (min-width: 1200px) {
-      max-width: 1200px;
-  
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+
     padding-top: 32px;
-      padding-bottom: 32px;
-    }
+    padding-bottom: 32px;
+  }
 }
 
 .header-link__contacts .item + .item {
@@ -140,12 +138,11 @@
     margin-left: 0;
   }
 
-    @media screen and (min-width: 1200px) {
-      max-width: 1200px;
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
 
-      margin-left: 50px;
-    }
-
+    margin-left: 50px;
+  }
 }
 
 .logo__padding {
@@ -241,8 +238,7 @@
 
     cursor: pointer;
 
-    transition:
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
@@ -286,7 +282,6 @@
 
     padding: 48px 40px;
     overflow: auto;
-
   }
 
   @media screen and (min-width: 768px) {
@@ -305,14 +300,14 @@
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-  -webkit-transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
   transform: translate(-50%, -50%);
   transition: scale 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-
+}
 
 .mobile-contacts__current {
   color: var(--accent-color);
@@ -340,7 +335,7 @@
 
     &:hover,
     &:focus {
-    background-color: #2196f3;
+      background-color: #2196f3;
     }
   }
 
@@ -438,4 +433,3 @@
     }
   }
 }
-

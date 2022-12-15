@@ -16,7 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -45,7 +45,10 @@
 
         <ul class="header-link__contacts list header-navigation">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="header__email header__icon">
+            <a
+              href="mailto:info@devstudio.com"
+              class="header__email header__icon"
+            >
               <svg width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope-hover"></use></svg
               >info@devstudio.com</a
@@ -59,75 +62,95 @@
             >
           </li>
         </ul>
-          
-          <button type="button" class="menu-open" data-menu-open>
-            <svg width="24" height="16">
-              <use href="./images/icons.svg#icon-menu-open"></use>
-            </svg>
-          </button>
+
+        <button type="button" class="menu-open" data-menu-open>
+          <svg width="24" height="16">
+            <use href="./images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
       </div>
 
-        <div class="mobile-menu is-hidden" data-menu>
-            
-              <button type="button" class="menu-btn menu-btn--position" data-menu-close>
-                <svg width="40" height="40">
-                  <use href="./images/icons.svg#icon-close-mobile"></use>
-                </svg>
-              </button>
+      <div class="mobile-menu is-hidden" data-menu>
+        <button
+          type="button"
+          class="menu-btn menu-btn--position"
+          data-menu-close
+        >
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#icon-close-mobile"></use>
+          </svg>
+        </button>
 
-              <ul class="mobile-contacts list">
-                <li class="mobile-contacts__item item">
-                  <a href="./index.html" class="link mobile-contacts__current">Студія</a>
-                </li>
-                <li class="mobile-contacts__item item">
-                  <a href="./portfolio.html" class="link">Портфоліо</a>
-                </li>
-                <li class="mobile-contacts__item item">
-                  <a href="./index.html" class="link">Контакти</a>
-                </li>
-              </ul>
+        <ul class="mobile-contacts list">
+          <li class="mobile-contacts__item item">
+            <a href="./index.html" class="link mobile-contacts__current"
+              >Студія</a
+            >
+          </li>
+          <li class="mobile-contacts__item item">
+            <a href="./portfolio.html" class="link">Портфоліо</a>
+          </li>
+          <li class="mobile-contacts__item item">
+            <a href="./index.html" class="link">Контакти</a>
+          </li>
+        </ul>
 
-              <ul class="mobile-contacts__navigation list ">
-                <li class="mobile-contacts__item item">
-                  <a href="tel:+380961111111" class="mobile-contacts__phone">+38 096 111 11 11</a>
-                </li>
-                
-                <li class="mobile-contacts__item item">
-                  <a href="mailto:info@devstudio.com" 
-                  class="mobile-contacts__email">info@devstudio.com</a>
-                </li>
-              </ul>
+        <ul class="mobile-contacts__navigation list">
+          <li class="mobile-contacts__item item">
+            <a href="tel:+380961111111" class="mobile-contacts__phone"
+              >+38 096 111 11 11</a
+            >
+          </li>
 
-              <ul class="mobile-social list item">
-                <li> 
-                  <a href="https://www.instagram.com" 
-                  class="mobile-social__link link" 
-                  target="_blank"
-                  rel="noreferrer noopener">Instagram</a>
-                </li>
-                
-                <li>
-                  <a href="https://twitter.com" 
-                  class="mobile-social__link link" 
-                  target="_blank" 
-                  rel="noreferrer noopener">Twitter</a>
-                </li>
+          <li class="mobile-contacts__item item">
+            <a href="mailto:info@devstudio.com" class="mobile-contacts__email"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
 
-                <li>
-                  <a href="https://www.facebook.com" 
-                  class="mobile-social__link link" 
-                  target="_blank" 
-                  rel="noreferrer noopener">Facebook</a>
-                </li>
+        <ul class="mobile-social list item">
+          <li>
+            <a
+              href="https://www.instagram.com"
+              class="mobile-social__link link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Instagram</a
+            >
+          </li>
 
-                <li>
-                  <a href="https://www.linkedin.com" 
-                  class="mobile-social__link mobile-social__link--not_after link" 
-                  target="_blank"
-                  rel="noreferrer noopener">LinkedIn</a>
-                </li>
-              </ul>
-        </div>
+          <li>
+            <a
+              href="https://twitter.com"
+              class="mobile-social__link link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Twitter</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="https://www.facebook.com"
+              class="mobile-social__link link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Facebook</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="https://www.linkedin.com"
+              class="mobile-social__link mobile-social__link--not_after link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
@@ -242,7 +265,7 @@
       </div>
 
       <!--Section 2-->
-<!-- <h2>Наші переваги</h2> -->
+      <!-- <h2>Наші переваги</h2> -->
 
       <section class="section-advantage">
         <div class="container">
@@ -308,7 +331,7 @@
       </section>
 
       <!--Section 3-->
-      
+
       <section class="section-about">
         <div class="container">
           <h2 class="title-main">Чим ми займаємося</h2>
@@ -359,32 +382,37 @@
           <h2 class="title-main">Наша команда</h2>
           <ul class="list section-team__list">
             <li class="item">
-
               <picture>
-                <source 
-                srcset="./images/img_igor.jpg 1x, ./images/img_igor-desk-2x.jpg 2x"
-                media="(min-width: 1200px)"/> 
+                <source
+                  srcset="
+                    ./images/img_igor.jpg         1x,
+                    ./images/img_igor-desk-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
 
-                <source 
-                srcset="./img_igor-tab-1x 1x, ./images/img_igor-tab-2x.jpg 2x" 
-                media="(min-width: 768px)"/>
+                <source
+                  srcset="./img_igor-tab-1x 1x, ./images/img_igor-tab-2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
 
-                <source 
-                srcset="./img_igor-mob-1x 1x, ./images/img_igor-mob-2x.jpg 2x" 
-                media="(min-width: 767px)"/>
+                <source
+                  srcset="./img_igor-mob-1x 1x, ./images/img_igor-mob-2x.jpg 2x"
+                  media="(min-width: 767px)"
+                />
 
-                <img 
-                src="./images/img_igor-mob-1x.jpg"
-                alt="Фото_ІгорДем'яненко" 
-                width="450" 
-                height="460"/>
+                <img
+                  src="./images/img_igor-mob-1x.jpg"
+                  alt="Фото_ІгорДем'яненко"
+                  width="450"
+                  height="460"
+                />
               </picture>
 
               <div class="team-picture">
                 <h3 class="team-picture__leader">Ігор Дем'яненко</h3>
                 <p class="team-picture__title">Product Designer</p>
                 <ul class="team-social">
-
                   <li class="link team-social__item">
                     <a class="team-social__link" href="#">
                       <svg class="team-social__icon" width="20" height="20">
@@ -421,25 +449,31 @@
             </li>
 
             <li class="item">
-
               <picture>
-                <source 
-                srcset="./images/img_olga.jpg 1x, ./images/img_olga-desk-2x.jpg 2x" 
-                media="(min-width: 1200px)" />
-              
-                <source 
-                srcset="./img_olga-tab-1x 1x, ./images/img_olga-tab-2x.jpg 2x" 
-                media="(min-width: 768px)" />
-              
-                <source 
-                srcset="./img_olga-mob-1x 1x, ./images/img_olga-mob-2x.jpg 2x" 
-                media="(min-width: 767px)" />
-              
-                <img 
-                src="./images/img_olga-mob-1x.jpg" 
-                alt="Фото_Ольга_Рєпіна" 
-                width="450" 
-                height="460" />
+                <source
+                  srcset="
+                    ./images/img_olga.jpg         1x,
+                    ./images/img_olga-desk-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="./img_olga-tab-1x 1x, ./images/img_olga-tab-2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./img_olga-mob-1x 1x, ./images/img_olga-mob-2x.jpg 2x"
+                  media="(min-width: 767px)"
+                />
+
+                <img
+                  src="./images/img_olga-mob-1x.jpg"
+                  alt="Фото_Ольга_Рєпіна"
+                  width="450"
+                  height="460"
+                />
               </picture>
 
               <div class="team-picture">
@@ -482,25 +516,37 @@
             </li>
 
             <li class="item">
-
               <picture>
-                <source 
-                srcset="./images/img_mykola.jpg 1x, ./images/img_mykola-desk-2x.jpg 2x" 
-                media="(min-width: 1200px)" />
-              
-                <source 
-                srcset="./img_mykola-tab-1x 1x, ./images/img_mykola-tab-2x.jpg 2x" 
-                media="(min-width: 768px)" />
-              
-                <source 
-                srcset="./img_mykola-mob-1x 1x, ./images/img_mykola-mob-2x.jpg 2x" 
-                media="(min-width: 767px)" />
-              
-                <img 
-                src="./images/img_mykola-mob-1x.jpg" 
-                alt="Фото_Микола_Тарасов" 
-                width="450" 
-                height="460" />
+                <source
+                  srcset="
+                    ./images/img_mykola.jpg         1x,
+                    ./images/img_mykola-desk-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./img_mykola-tab-1x            1x,
+                    ./images/img_mykola-tab-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./img_mykola-mob-1x            1x,
+                    ./images/img_mykola-mob-2x.jpg 2x
+                  "
+                  media="(min-width: 767px)"
+                />
+
+                <img
+                  src="./images/img_mykola-mob-1x.jpg"
+                  alt="Фото_Микола_Тарасов"
+                  width="450"
+                  height="460"
+                />
               </picture>
 
               <div class="team-picture">
@@ -543,25 +589,37 @@
             </li>
 
             <li class="item">
-
               <picture>
-              <source 
-              srcset="./images/img_michael.jpg 1x, ./images/img_michael-desk-2x.jpg 2x" 
-              media="(min-width: 1200px)" />
-              
-              <source 
-              srcset="./img_michael-tab-1x 1x, ./images/img_michael-tab-2x.jpg 2x" 
-              media="(min-width: 768px)" />
-              
-              <source 
-              srcset="./img_michael-mob-1x 1x, ./images/img_michael-mob-2x.jpg 2x" 
-              media="(min-width: 767px)" />
-              
-              <img 
-              src="./images/img_michael-mob-1x.jpg" 
-              alt="Фото_Михайло_Єрмаков" 
-              width="450" 
-              height="460" />
+                <source
+                  srcset="
+                    ./images/img_michael.jpg         1x,
+                    ./images/img_michael-desk-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./img_michael-tab-1x            1x,
+                    ./images/img_michael-tab-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./img_michael-mob-1x            1x,
+                    ./images/img_michael-mob-2x.jpg 2x
+                  "
+                  media="(min-width: 767px)"
+                />
+
+                <img
+                  src="./images/img_michael-mob-1x.jpg"
+                  alt="Фото_Михайло_Єрмаков"
+                  width="450"
+                  height="460"
+                />
               </picture>
 
               <div class="team-picture">
@@ -663,8 +721,6 @@
           </ul>
         </div>
       </section>
-
-
     </main>
 
     <!--Footer-->
@@ -783,11 +839,8 @@
         </div>
       </div>
     </footer>
-    
+
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
-    
   </body>
 </html>
-
-
