@@ -3,7 +3,6 @@
   padding-bottom: 30px;
 
 @media screen and (min-width: 1200px) {
-    max-width: 1200px;
     margin: 0 auto;
 
     padding-top: 94px;
@@ -18,34 +17,29 @@
     margin-right: 0;
   }
 
-    @media screen and (min-width: 480px) {
-      max-width: 480px;
+      @media screen and (min-width: 320px) {
       flex-wrap: wrap;
       gap: 30px;
     }
 
-    @media screen and (min-width: 768px) {
-      max-width: 768px;
+        @media screen and (min-width: 768px) {
       flex-wrap: wrap;
       gap: 30px;
     }
 
 @media screen and (min-width: 1200px) {
   display: flex;
-  max-width: 1200px;
 }
 }
 
 .section-advantage__list .item {
   @media screen and (min-width: 768px) {
-    max-width: 768px;
     width: calc((100% - 30px) / 2);
     flex-wrap: wrap;
     gap: 30px;
   }
 
 @media screen and (min-width: 1200px) {
-    max-width: 1200px;
     width: calc((100% - 90px) / 4);
   }
 }
