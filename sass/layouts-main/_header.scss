@@ -386,7 +386,8 @@
 
   &__link {
     &::after {
-      @media screen and (max-width: 436px) {
+      @media screen and (max-width: 319px) {
+        
         display: none;
       }
 
