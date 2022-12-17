@@ -337,36 +337,60 @@
           <h2 class="title-main">Чим ми займаємося</h2>
           <ul class="list section-about__list">
             <li class="item section-about__thumb">
-              <img
-                src="./images/img_1_sq.jpg"
-                alt="Людина_вводить_текст_на_клавіатурі"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./images/img_1_sq.jpg 1x, ./images/img_1-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./images/img_1_sq.jpg"
+                  alt="Людина_вводить_текст_на_клавіатурі"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+
               <div class="section-about__label">
                 <p>Десктопні додатки</p>
               </div>
             </li>
 
             <li class="item section-about__thumb">
-              <img
-                src="./images/img_2_sq.jpg"
-                alt="Людина_порівнює_дизайн_шаблону_на_телефоні"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./images/img_2_sq.jpg 1x, ./images/img_2-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./images/img_2_sq.jpg"
+                  alt="Людина_порівнює_дизайн_шаблону_на_телефоні"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+
               <div class="section-about__label">
                 <p>Мобільні додатки</p>
               </div>
             </li>
 
             <li class="item section-about__thumb">
-              <img
-                src="./images/img_3_sq.jpg"
-                alt="Людина_вибирає_колір_на_планшеті"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./images/img_3_sq.jpg 1x, ./images/img_3-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./images/img_3_sq.jpg"
+                  alt="Людина_вибирає_колір_на_планшеті"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+
               <div class="section-about__label">
                 <p>Дизайнерські рішення</p>
               </div>
@@ -392,12 +416,16 @@
                 />
 
                 <source
-                  srcset="./img_igor-tab-1x 1x, ./images/img_igor-tab-2x.jpg 2x"
+                  srcset="
+                  ./images/img_igor-tab-1x.jpg 1x, 
+                  ./images/img_igor-tab-2x.jpg 2x"
                   media="(min-width: 768px)"
                 />
 
                 <source
-                  srcset="./img_igor-mob-1x 1x, ./images/img_igor-mob-2x.jpg 2x"
+                  srcset="
+                  ./images/img_igor-mob-1x.jpg 1x, 
+                  ./images/img_igor-mob-2x.jpg 2x"
                   media="(min-width: 767px)"
                 />
 
@@ -459,12 +487,16 @@
                 />
 
                 <source
-                  srcset="./img_olga-tab-1x 1x, ./images/img_olga-tab-2x.jpg 2x"
+                  srcset="
+                  ./images/img_olga-tab-1x.jpg 1x, 
+                  ./images/img_olga-tab-2x.jpg 2x"
                   media="(min-width: 768px)"
                 />
 
                 <source
-                  srcset="./img_olga-mob-1x 1x, ./images/img_olga-mob-2x.jpg 2x"
+                  srcset="
+                  ./images/img_olga-mob-1x.jpg 1x, 
+                  ./images/img_olga-mob-2x.jpg 2x"
                   media="(min-width: 767px)"
                 />
 
@@ -527,7 +559,7 @@
 
                 <source
                   srcset="
-                    ./img_mykola-tab-1x            1x,
+                    ./images/img_mykola-tab-1x.jpg           1x,
                     ./images/img_mykola-tab-2x.jpg 2x
                   "
                   media="(min-width: 768px)"
@@ -535,7 +567,7 @@
 
                 <source
                   srcset="
-                    ./img_mykola-mob-1x            1x,
+                    ./images/img_mykola-mob-1x.jpg           1x,
                     ./images/img_mykola-mob-2x.jpg 2x
                   "
                   media="(min-width: 767px)"
@@ -600,7 +632,7 @@
 
                 <source
                   srcset="
-                    ./img_michael-tab-1x            1x,
+                    ./images/img_michael-tab-1x.jpg           1x,
                     ./images/img_michael-tab-2x.jpg 2x
                   "
                   media="(min-width: 768px)"
@@ -608,7 +640,7 @@
 
                 <source
                   srcset="
-                    ./img_michael-mob-1x            1x,
+                    ./images/img_michael-mob-1x.jpg            1x,
                     ./images/img_michael-mob-2x.jpg 2x
                   "
                   media="(min-width: 767px)"
