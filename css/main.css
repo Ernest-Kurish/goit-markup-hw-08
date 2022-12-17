@@ -1143,14 +1143,14 @@ body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: var(--gradient), url(../images/img_main_bq.jpg);
+  background-image: var(--gradient), url(../../images/img_main_bq.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .overlay {
-    background-image: var(--gradient), url(../images/img_header-desktop-2x.jpg);
+    background-image: var(--gradient), url(../../images/img_header-desktop-2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1158,7 +1158,7 @@ body {
 }
 @media screen and (min-width: 320px) {
   .overlay {
-    background-image: var(--gradient), url(../images/header-mobile.jpg);
+    background-image: var(--gradient), url(../../images/header-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1166,7 +1166,7 @@ body {
 }
 @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: var(--gradient), url(../images/header-mobile-2x.jpg);
+    background-image: var(--gradient), url(../../images/header-mobile-2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1174,7 +1174,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .overlay {
-    background-image: var(--gradient), url(../images/header-tablet.jpg);
+    background-image: var(--gradient), url(../../images/header-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1182,7 +1182,7 @@ body {
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: var(--gradient), url(../images/header-tablet-2x.jpg);
+    background-image: var(--gradient), url(../../images/header-tablet-2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1190,7 +1190,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .overlay {
-    background-image: var(--gradient), url(../images/img_main_bq.jpg);
+    background-image: var(--gradient), url(../../images/img_main_bq.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1198,7 +1198,7 @@ body {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: var(--gradient), url(../images/img_header-desktop-2x.jpg);
+    background-image: var(--gradient), url(../../images/img_header-desktop-2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
