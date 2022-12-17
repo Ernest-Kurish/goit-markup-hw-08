@@ -61,7 +61,7 @@
   margin-left: auto;
   margin-right: auto;
   background-image: var(--gradient),
-    url(images/main_bq.jpg);
+    url(../../images/img_main_bq.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -71,7 +71,7 @@
       (min-resolution: 2dppx) {
         
         background-image: var(--gradient),
-            url(../../images/header-desktop-2x.jpg);
+            url(../../images/img_header-desktop-2x.jpg);
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
@@ -80,7 +80,7 @@
 @media screen and (min-width: 320px) {
 
 background-image: var(--gradient),
-    url(../../images/header-mobile.jpg);
+    url(../images/header-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -90,7 +90,7 @@ background-image: var(--gradient),
     (min-resolution: 2dppx) {
   
       background-image: var(--gradient),
-        url(../../images/header-mobile-2x.jpg);
+        url(../images/header-mobile-2x.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -100,7 +100,7 @@ background-image: var(--gradient),
 @media screen and (min-width: 768px) {
 
   background-image: var(--gradient),
-      url(../../images/hero-bg-tab/header-tablet.jpg);
+      url(../images/hero-bg-tab/header-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
