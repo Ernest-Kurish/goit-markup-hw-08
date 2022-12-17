@@ -61,7 +61,7 @@
   margin-left: auto;
   margin-right: auto;
   background-image: var(--gradient),
-    url(../../images/img_main_bq.jpeg);
+    url(../images/img_main_bq.jpeg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -71,7 +71,7 @@
       (min-resolution: 2dppx) {
         
         background-image: var(--gradient),
-            url(../../images/img_header-desktop-2x.jpeg);
+            url(../images/img_header-desktop-2x.jpeg);
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
