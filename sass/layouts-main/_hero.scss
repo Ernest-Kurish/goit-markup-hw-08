@@ -118,10 +118,10 @@ background-image: var(--gradient),
 }
 
 @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+  background-image: var(--gradient),  
+  url(../images/img_main_bq.jpeg);
 
-  background-image: var(--gradient),
-    
-      url(../images/img_main_bq.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -131,7 +131,9 @@ background-image: var(--gradient),
     (min-resolution: 2dppx) {
   
       background-image: var(--gradient),
-        url(../images/img_header-desktop-2x.jpeg);
+      
+      url(../images/img_header-desktop-2x.jpeg);
+        max-width: 1600px;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;

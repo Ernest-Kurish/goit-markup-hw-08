@@ -245,7 +245,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1600px;
   }
 }
 
@@ -1190,6 +1190,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .overlay {
+    max-width: 1600px;
     background-image: var(--gradient), url(../images/img_main_bq.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1199,6 +1200,7 @@ body {
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .overlay {
     background-image: var(--gradient), url(../images/img_header-desktop-2x.jpeg);
+    max-width: 1600px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
