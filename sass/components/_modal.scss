@@ -12,10 +12,14 @@
   width: 528px;
   padding: 40px;
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
     max-width: 480px;
+    position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translate(-50%);
 
-    width: 450px;
+    width: auto;
       padding: 40px;
   }
 
@@ -30,9 +34,9 @@
     max-width: 1200px;
 
     position: absolute;
-      top: 50%;
+      top: 30px;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%);
     
       width: 528px;
       padding: 40px;
